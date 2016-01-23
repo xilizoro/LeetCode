@@ -14,8 +14,6 @@ public class InvertBinaryTree {
 
         root.right=invertTree(left);
         root.left=invertTree(right);
-
-
         return root;
     }
 }
